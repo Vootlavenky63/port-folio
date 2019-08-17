@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Users1 from "./Users1";
 import About2 from "./About2";
 import Index1 from "./Index1";
+import "./App.css"
 
 
 function AppRouter() {

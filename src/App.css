@@ -31,3 +31,11 @@
     transform: rotate(360deg);
   }
 }
+.img{
+  background-image: url(./img9.jpg);
+  background-size: cover;
+  height: 600px;
+   background-repeat: no-repeat;
+   background-position: center;
+
+}

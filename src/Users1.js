@@ -1,11 +1,11 @@
 import React from 'react'
+import "./App.css"
 
 export default function Users1() {
     return (
-        <div>
-            <h3>React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app, the links in this section will help you get started.
+        <div className="img">
+                <h1>hello</h1>
 
-</h3>
         </div>
     )
 }
