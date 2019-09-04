@@ -1,65 +1,79 @@
-.App {
-  text-align: center;
+section{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    font-weight: 800;
+
+    font-size: 60px;
+    line-height: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+h2{
+    font-size: 36px;
+    font-weight: 400;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.img{
-  background-image: url(./img9.jpg);
-  background-size: cover;
-  height: 600px;
-   background-repeat: no-repeat;
-   background-position: center;
 
 }
-.img2{
-  background-image: url(./img10.jpg);
-  background-size: cover;
-  height: 600px;
-   background-repeat: no-repeat;
-   /* background-position: center; */
+
+.flex-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
-.img,h1{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
+
+.img-size{
+    width: 48%;
 }
-.img2,h1{
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
-  color:orangered;
-  font-size: 80px;
+.text-align{
+    text-align: center;
+    line-height:1;
+}
+.card-container{
+display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.card{
+    width: 25%;
+    height: 70%;
+    box-shadow: 10px 10px 40px -30px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.contact{
+    background-color: rgb(229, 233, 240);
+    padding: 40px;
+    text-align: center;
+}
+.info{
+   
+    text-align: center;
+    color: rgb(224, 126, 126);
 }
 
+.btn{
+    padding: 0px 30px;
+    box-shadow: 0px 10px 30px 0px #FF4B2B;
+    border-radius: 16px;
+
+
+    color: white;
+    background: #FF416C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

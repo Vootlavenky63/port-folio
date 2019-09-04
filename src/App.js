@@ -1,35 +1,21 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Users1 from "./Users1";
-import About2 from "./About2";
-import Index1 from "./Index1";
-import "./App.css"
+import React from 'react'
+import './App.css'
+import Hero from './Hero';
+import Objectives from './Objective';
+import Skils from './Skils';
+import React1 from './React1';
+import Contact from './Contact';
 
 
-function AppRouter() {
+export default function App() {
   return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about/">About</Link>
-            </li>
-            <li>
-              <Link to="/Users/">Users</Link>
-            </li>
-          </ul>
-        </nav>
-
-        <Route path="/" exact component={Index1} />
-        <Route path="/about/" component={About2} />
-        <Route path="/users/" component={Users1} />
-      </div>
-    </Router>
-  );
+    <div>
+      <Hero/>
+      <Objectives/>
+      <Skils/>
+      <React1/>
+      <Contact/>
+      
+    </div>
+  )
 }
-
-export default AppRouter;
